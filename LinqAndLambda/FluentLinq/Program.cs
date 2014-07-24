@@ -13,9 +13,9 @@ namespace FluentLinq
             var movies = new List<Movie>();
             AddMoviesToList(movies);
 
-//            GetAListOfCrimeMoviesUsingFluentLinq(movies);
+           GetAListOfCrimeMoviesUsingFluentLinq(movies);
 
-//            SortMoviesByYearUsingFluentLinq(movies);
+           SortMoviesByYearUsingFluentLinq(movies);
 
             Console.ReadKey();
         }
@@ -24,7 +24,7 @@ namespace FluentLinq
         {
             Console.WriteLine("Getting an ordered list of movies...");
 
-            var orderedList = movies.OrderBy(movie => movie.Year).ThenBy(movie => movie.Title);
+            var orderedList = movies.OrderBy(movie => movie.Title);
 
             foreach (var movie in orderedList)
             {
@@ -36,7 +36,7 @@ namespace FluentLinq
         {
             Console.WriteLine("Getting a list of Crime movies...");
 
-            var crimeMovies = movies.Where(movie => movie.Genre == "Crime");
+            var crimeMovies = movies.Where(movie => movie.Year == "1981");
 
             foreach (var movie in crimeMovies)
             {
