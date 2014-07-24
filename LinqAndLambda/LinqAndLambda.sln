@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_Linq", "1_Linq", "{9A6B7DA2-CC63-47FF-9C2A-0E0B428BDA1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqSyntaxx", "LinqSyntaxx\LinqSyntaxx.csproj", "{B99566EC-5AEC-496C-8134-8A6CE99B1A5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_FluentLinq", "2_FluentLinq", "{35EB7A8E-20A1-491C-A67A-22C63E3C9A56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentLinq", "FluentLinq\FluentLinq.csproj", "{0BDED8D4-1EAF-481E-9CD4-90D0A4019457}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B99566EC-5AEC-496C-8134-8A6CE99B1A5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B99566EC-5AEC-496C-8134-8A6CE99B1A5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B99566EC-5AEC-496C-8134-8A6CE99B1A5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B99566EC-5AEC-496C-8134-8A6CE99B1A5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BDED8D4-1EAF-481E-9CD4-90D0A4019457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BDED8D4-1EAF-481E-9CD4-90D0A4019457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BDED8D4-1EAF-481E-9CD4-90D0A4019457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BDED8D4-1EAF-481E-9CD4-90D0A4019457}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B99566EC-5AEC-496C-8134-8A6CE99B1A5C} = {9A6B7DA2-CC63-47FF-9C2A-0E0B428BDA1E}
+		{0BDED8D4-1EAF-481E-9CD4-90D0A4019457} = {35EB7A8E-20A1-491C-A67A-22C63E3C9A56}
+	EndGlobalSection
+EndGlobal
